@@ -5,8 +5,8 @@ import TodoList from "./components/TodoList";
 export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center">
-        <Title />
-        <TodoList tasks={tasks} />
+      <Title />
+      <TodoList tasks={tasks} />
     </div>
   )
 }

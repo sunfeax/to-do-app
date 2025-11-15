@@ -1,13 +1,13 @@
 export type Task = {
-    id: number;
-    title: string;
-    isDone: boolean;
+  id: number;
+  title: string;
+  isDone: boolean;
 } 
 
 export interface TodoListProps {
-    tasks: Task[];
+  tasks: Task[];
 }
 
 export interface TodoItemProps {
-    task: Task;
+  task: Task;
 }
