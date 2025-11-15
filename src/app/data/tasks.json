@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Приготовить еду",
+        "isDone": false
+    },
+    {
+        "id": 2,
+        "title": "Помыть посуду",
+        "isDone": false
+    },
+    {
+        "id": 3,
+        "title": "Погладить вещи",
+        "isDone": true
+    }
+]
