@@ -5,7 +5,10 @@ export default function TodoList({ tasks }: TodoListProps) {
   return (
     <ul>
       {tasks.map((task => (
-        <TodoItem key={task.id} task={task}/>
+        <TodoItem
+          key={task.id}
+          task={task}
+        />
       )))}
     </ul>
   )

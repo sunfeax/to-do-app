@@ -10,4 +10,6 @@ export interface TodoListProps {
 
 export interface TodoItemProps {
   task: Task;
+  onEdit?: (id: number) => void;
+  onDelete?: (id: number) => void;
 }
